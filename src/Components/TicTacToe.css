@@ -1,0 +1,200 @@
+.box{
+    height: 31rem;
+    width: 25rem;
+    margin: 5px;
+    /* border:2px solid yellow; */
+}
+
+
+.button{
+    /* border: 2px solid red; */
+    width: 8rem;
+    height: 2.2rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+button{
+    border: 2px solid rgb(88, 255, 177);
+    width: 7.7rem;
+    height: 2.2rem;
+    background-color: darkolivegreen;
+    border-radius: 1rem;
+    font-family: monospace;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.row1{
+    height:10.3rem;
+    /* border: 2px solid greenyellow; */
+    /* margin: 7px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2{
+    height: 8.3rem;
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* margin: 7px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3{
+    height: 10.3rem;
+    /* border: 2px solid rgb(30, 0, 255); */
+    /* margin: 7px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commonBox{
+    border: 2px solid rgb(201 110 110);
+    height: 9rem;
+    width: 9rem;
+    margin: 2px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commonBox:hover{
+    cursor: pointer;
+    background-color: rgb(85, 46, 122);
+}
+
+img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.result{
+    position: relative;
+    height: 2rem;
+    width: 50rem;
+    left: 9rem;
+}
+
+.header{
+    position: relative;
+    top: 0rem;
+    width: 25rem;
+    /* border: 2px solid black; */
+}
+
+header{    
+    color: rgb(145, 255, 0);
+    font-family: serif;
+    font-size: 1.5rem;
+}
+
+.react{
+    color: rgb(230, 0, 255);
+}
+
+@media (min-width:0px) and (max-width:435px){
+
+    .container{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .box{
+        height: 33rem;
+        width: 22rem;
+        position: relative;
+        bottom: 10rem;
+    }
+
+    .commonBox{
+        height: 8rem;
+        width: 7rem;
+        margin: 2px;
+    }
+
+    .row1{
+        position: absolute;
+        top: 8.5rem;
+        left: 0.1rem;
+    }
+
+    .row2{
+        position: absolute;
+        top: 17.9rem;
+        left: 0.1rem;
+    }
+
+    button{
+        position: relative;
+        bottom: 16rem;
+    }
+
+    .header{
+        display: inline-block;
+        position: relative;
+        top: 2rem;
+        height: 15rem;
+    }
+}
+
+@media (min-width:435px) and (max-width:463px){
+    .container{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .box{
+        position: relative;
+        height: 22rem;
+        width: 23rem;
+        bottom: 3rem;
+    }
+
+    .commonBox{
+        height: 8rem;
+        width: 7rem;
+    }
+
+    .row1{
+        position: absolute;
+        top: 8.3rem;
+        left: 0.6rem;
+    }
+
+    .row2{
+        position: absolute;
+        top: 17.6rem;
+        left: 0.7rem;
+    }
+
+    .header{
+        position: relative;
+        top: -4rem;
+    }
+
+    button{
+        position: relative;
+        top: 3rem;
+    }
+}
+
+@media (max-width:463) and (max-width:561){
+    .container{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .box{
+        position: relative;
+        height: 40rem;
+        width: 23rem;
+    }
+}
